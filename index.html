@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff7ebc;
+        }
+        .container {
+            background-color:#ff7ebc;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #87ceeb;
+            padding: 20px;
+        }
+        .about-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .about-section img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .about-text {
+            margin-left: 20px;
+            text-align: left;
+            max-width: 1000px;
+            height: 75vh;
+        }
+        .about-text h2 {
+            color: black;
+            margin-bottom: 20px;
+        }
+        .about-text p {
+            color: black;
+            line-height: 1.6;
+        }
+        .form-section {
+            margin-left: 6%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        .form-section input[type="text"], .form-section input[type="email"] {
+            width: 200px;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-section input[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .navbar {
+            background-color: #ff7ebc;
+            padding: 10px;
+            height: 10vh;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+            padding-top: 25px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 18px;
+        }
+        footer{
+             background-color:#ff7ebc;
+         }  
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <div class="about-section">
+                <img src="p1.jpeg">
+                
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>My name is Collen Villas, a 19-year-old student currently pursuing my studies at West Visayas State University, Lambunao Campus. As a dedicated and passionate learner, I strive to develop both academically and personally, while actively engaging in campus life. My journey at WVSU has not only shaped my academic skills but has also nurtured my growth in leadership, collaboration, and community involvement.I believe in the power of education to transform lives and empower individuals, and I am committed to making the most out of my university experience. With strong roots in my values and a vision for a brighter future, I look forward to contributing to both my local and global community.</p>
+                </div>
+
+                <div class="form-section">
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <input type="submit" value="Log in">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
